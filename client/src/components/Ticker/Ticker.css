@@ -1,0 +1,62 @@
+.ticker-container {
+    display: flex;
+    justify-content: center;
+}
+
+.ticker-row {
+    display: flex;
+    flex-direction: row;
+    flex: start;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid #d7d7d7;
+    width: 900px;
+}
+
+.ticker {
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+
+    min-width: 300px;
+}
+
+.ticker h1 {
+    font-size: 16px;
+    width: 150px;
+}
+
+.ticker-data {
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.ticker-price {
+    width: 110px;
+}
+
+.ticker-change {
+    width: 155px;
+}
+
+.ticker-percent {
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+}
+
+.green {
+    color: green;
+    border: 3px solid green;
+    border-radius: 15%;
+}
+
+.red {
+    color: red;
+    border: 5px solid red;
+    border-radius: 15%;
+}
+
