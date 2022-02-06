@@ -7,20 +7,6 @@ import { initPriceTickersCreator } from "./store/actionsCreators/priceTickersCre
 
 function App() {
 
-    // const [tickers, setTickers] = useState([])
-    // const socket = io("http://localhost:4000/");
-    //
-    // useEffect(() => {
-    //
-    //     socket.emit('start');
-    //     socket.on('ticker', function(response) {
-    //        setTickers(response)
-    //     })
-    // },[]);
-    //
-    //
-    // console.log(tickers)
-
     const tickers = useSelector((store) => store.tickers.tickers)
     const dispatch = useDispatch();
 

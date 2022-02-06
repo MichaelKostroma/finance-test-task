@@ -6,7 +6,6 @@
 .ticker-row {
     display: flex;
     flex-direction: row;
-    flex: start;
     align-items: center;
     height: 80px;
     border-bottom: 1px solid #d7d7d7;
